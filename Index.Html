@@ -2,93 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <Title>Greek Mythology Trivia</Title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="main.js"type="text/javascript"></script>
 </head>
 <body>
     <main>
         <h1>Greek Mythology Trivia</h1>
 
-        <div>
+        <div id="q1">
             <h2>Who was the King of the gods?</h2>
-            <p><button>Poseidon</button></p>
-            <p><button>Athena</button></p>
-            <p><button>Zeus</button></p>
-            <p><button>Ares</button></p>
+            <p><button onclick="trivia('wrong');">Poseidon</button></p>
+            <p><button onclick="trivia('wrong');">Athena</button></p>
+            <p><button onclick="trivia('right');">Zeus</button></p>
+            <p><button onclick="trivia('wrong');">Ares</button></p>
         </div>
 
-        <div>
+        <div id="q2">
             <h2>What was Medusa's hair made out of?</h2>
-            <p><button>Lizards</button></p>
-            <p><button>Snakes</button></p>
-            <p><button>Normal Hair</button></p>
-            <p><button>Metal</button></p>
+            <p><button onclick="trivia('wrong');">Lizards</button></p>
+            <p><button onclick="trivia('right');">Snakes</button></p>
+            <p><button onclick="trivia('wrong');">Normal Hair</button></p>
+            <p><button onclick="trivia('wrong');">Metal</button></p>
         </div>
 
-        <div>
+        <div id="q3">
             <h2>Which creature was half-man and half-bull?</h2>
-            <p><button>Minotaur</button></p>
-            <p><button>Siren</button></p>
-            <p><button>Cerberus</button></p>
-            <p><button>Pegasus</button></p>
+            <p><button onclick="trivia('right');">Minotaur</button></p>
+            <p><button onclick="trivia('wrong');">Siren</button></p>
+            <p><button onclick="trivia('wrong');">Cerberus</button></p>
+            <p><button onclick="trivia('wrong');">Pegasus</button></p>
         </div>
 
-        <div>
+        <div id="q4">
             <h2>What was left in Pandora's box after she released misery and evil?</h2>
-            <p><button>Kindness</button></p>
-            <p><button>Love</button></p>
-            <p><button>Compassion</button></p>
-            <p><button>Hope</button></p>
+            <p><button onclick="trivia('wrong');">Kindness</button></p>
+            <p><button onclick="trivia('wrong');">Love</button></p>
+            <p><button onclick="trivia('wrong');">Compassion</button></p>
+            <p><button onclick="trivia('right');">Hope</button></p>
         </div>
 
-        <div>
+        <div id=q5>
             <h2>Which God ruled the underworld and the dead?</h2>
-            <p><button>Hades</button></p>
-            <p><button>Athena</button></p>
-            <p><button>Cronos</button></p>
-            <p><button>Hermes</button></p>
+            <p><button onclick="trivia('right');">Hades</button></p>
+            <p><button onclick="trivia('wrong');">Athena</button></p>
+            <p><button onclick="trivia('wrong');">Cronos</button></p>
+            <p><button onclick="trivia('wrong');">Hermes</button></p>
         </div>
 
-        <div>
+        <div id="q6">
             <h2>How many times did Hercules defeat Ares?</h2>
-            <p><button>Three Times</button></p>
-            <p><button>Two Times</button></p>
-            <p><button>Four Times</button></p>
-            <p><button>Seven Times</button></p>
+            <p><button onclick="trivia('wrong');">Three Times</button></p>
+            <p><button onclick="trivia('right');">Two Times</button></p>
+            <p><button onclick="trivia('wrong');">Four Times</button></p>
+            <p><button onclick="trivia('wrong');">Seven Times</button></p>
         </div>
 
-        <div>
+        <div id="q7">
             <h2>Who held up the sky?</h2>
-            <p><button>Ryan</button></p>
-            <p><button>Hera</button></p>
-            <p><button>Heracles</button></p>
-            <p><button>Atlas</button></p>
+            <p><button onclick="trivia('wrong');">Ryan</button></p>
+            <p><button onclick="trivia('wrong');">Hera</button></p>
+            <p><button onclick="trivia('wrong');">Heracles</button></p>
+            <p><button onclick="trivia('right');">Atlas</button></p>
         </div>
 
-        <div>
+        <div id="q8">
             <h2> How many heads did the ant-eating serpent Amphisbaena have?</h2>
-            <p><button>Two</button></p>
-            <p><button>One</button></p>
-            <p><button>Four</button></p>
-            <p><button>Three</button></p>
+            <p><button onclick="trivia('right');">Two</button></p>
+            <p><button onclick="trivia('wrong');">One</button></p>
+            <p><button onclick="trivia('wrong');">Four</button></p>
+            <p><button onclick="trivia('wrong');">Three</button></p>
         </div>
 
-        <div>
+        <div id="q9">
             <h2>What is the symbol of Ares?</h2>
-            <p><button>Spear</button></p>
-            <p><button>Battle Armor</button></p>
-            <p><button>Shield</button></p>
-            <p><button>Sword</button></p>
+            <p><button onclick="trivia('right');">Spear</button></p>
+            <p><button onclick="trivia('wrong');">Battle Armor</button></p>
+            <p><button onclick="trivia('wrong');">Shield</button></p>
+            <p><button onclick="trivia('wrong');">Sword</button></p>
         </div>
 
-        <div>
+        <div id="q10">
             <h2>Which God swallowed his children to prevent them from overthrowing him?</h2>
-            <p><button>Zeus</button></p>
-            <p><button>Hades</button></p>
-            <p><button>Prometheus</button></p>
-            <p><button>Cronos</button></p>
+            <p><button onclick="trivia('wrong');">Zeus</button></p>
+            <p><button onclick="trivia('wrong');">Hades</button></p>
+            <p><button onclick="trivia('wrong');">Prometheus</button></p>
+            <p><button onclick="trivia('right');">Cronos</button></p>
+       
         </div>
+        <div id ="results"></div>
+
     </main>
 </body>
 </html>
