@@ -21,7 +21,7 @@ border: black solid ;
 border-left-width: 5px;
 border-top-width: 5px;
 border-right-width: 5px;
-border-bottom-width: 1px;
+border-bottom-width: 5px;
 background-color: rgb(100, 159, 222);
 }
 
@@ -48,4 +48,17 @@ display: block;
 
 button:hover {
     background-color: gold;
+}
+
+#results {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    background-color: rgb(100, 159, 222);
+    text-align: center;
+    border-bottom-width: 5px;
+    padding: 1%
+}
+
+#q2,#q3,#q4,#q5,#q6,#q7,#q8,#q9,#q10,#results{
+    display:none;
 }
