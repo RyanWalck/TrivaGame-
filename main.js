@@ -22,13 +22,6 @@ function trivia(choice) {
     }
 }
 
-var questions = ['q1','q2','q3','q4','q5','q6','q7','q8','q9','q10']
-function shuffle(questions) {
-  questions.sort(() => Math.random() - 0.5);
-}
-shuffle(questions);
-console.log(questions);
-
 
 
 function showresults(){
